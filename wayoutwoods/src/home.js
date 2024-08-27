@@ -3,8 +3,8 @@ import "./App.css";
 import walkinwoods from "./img/walkinwoods.JPG";
 import logo from "./img/logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
-import React, { useState } from 'react';
-import { Row, Col, Container, Image, Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavItem, NavLink, DropdownToggle, DropdownMenu, DropdownItem, NavbarText, UncontrolledDropdown } from "reactstrap";
+import React from 'react';
+import { Row, Col, Container } from "reactstrap";
 import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
 
 

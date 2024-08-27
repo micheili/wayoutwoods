@@ -1,3 +1,23 @@
 .main-background{
-        height:500px;
+        display: flex;
+        height:800px;
+        flex-direction: column;
+        max-width: 1200px;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+}
+
+.logo{
+max-width: 75vh;
+width: 80%;
+}
+
+.flex-item {
+    text-align: center;
+    flex: 1;
+    margin: 8px;
+    padding: 4px;
 }

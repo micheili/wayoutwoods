@@ -50,3 +50,11 @@ margin-top: 10px;}
     font-size: 2em!important;
 }
 
+.accordion-header{
+    font-family: monospace;
+}
+
+.accordion-body{
+    font-family: monospace;
+}
+

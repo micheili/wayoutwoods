@@ -80,9 +80,21 @@ dom vill vi gärna ha.
 Ej röra, ej röra, nej skala kräftan först
 och sedan, och sedan, vi släcka ska vår törst.`,
   },
+  {
+    id: 7,
+    caption: "Kräftor är så goda",
+    melody: "MELODI: PERSONLIGA PERSSON",
+    songlyrics: `Kräftor är så goda, jag kan äta dem hela dagen
+    Men om det många kräftor blir - ja, då får jag ont i magen
+    Fyra kräftor det är ingenting för mig 
+    Flera kräftor ja då blir det ett tjohej
+    
+    Springa till toaletten
+    Nubben in i käften`,
+  }
 ];
 
-function Example(props) {
+function Snapsvisor(props) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
 
@@ -164,4 +176,4 @@ function Example(props) {
   );
 }
 
-export default Example;
+export default Snapsvisor;

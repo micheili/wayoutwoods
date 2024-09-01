@@ -21,6 +21,11 @@ import {
       <Collapse isOpen={isOpen} navbar>
         <Nav className="me-auto navbar-title" navbar>
 
+          
+        <NavItem>
+            <NavLink href="/faq/">FAQ</NavLink>
+          </NavItem>
+
           <NavItem>
             <NavLink href="/schedule/">Schedule</NavLink>
           </NavItem>

@@ -1,15 +1,13 @@
 import './App.css';
 import "./App.css";
 import walkinwoods from "./img/walkinwoods.JPG";
-import logo from "./img/logo.png";
+import logo from "./img/wow_logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from 'react';
 import { Row, Col, Container } from "reactstrap";
 import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
 
-
-
-export default function BreweryPage(){
+export default function HomePage(){
 return(
 <header>       
       <div

@@ -4,6 +4,8 @@ import React, {useState} from 'react';
     AccordionBody,
     AccordionHeader,
     AccordionItem,
+    NavItem,
+    NavLink
   } from 'reactstrap';
 
 export default function Faq(){
@@ -20,9 +22,27 @@ export default function Faq(){
 return (
     <div>
       <Accordion flush open={open} toggle={toggle}>
-        <AccordionItem>
-          <AccordionHeader targetId="1">What should I bring?</AccordionHeader>
+      <AccordionItem>
+          <AccordionHeader targetId="1">When should I come?</AccordionHeader>
           <AccordionBody accordionId="1">
+            <strong>Check your invite.</strong>
+            <br></br>
+            Friday will be more of a sit down dinner/crayfish party and is more limited with food and seating.
+            <br></br>
+            It will start at 18.00 so if you know that you need to be shown where to sleep or set up, please arrive early enough for that.
+            <br></br>
+            <br></br>
+            More people are invited for Saturday and everyone's welcome to hang out or arrive from 12.00, grills will be lit 16.30 and music will start 18.30
+            <NavItem>
+            <NavLink href="/schedule/"><h4 style={{textDecoration: 'underline'}}>See Schedule</h4></NavLink>
+          </NavItem>
+
+            <br></br>     
+          </AccordionBody>
+        </AccordionItem>
+        <AccordionItem>
+          <AccordionHeader targetId="2">What should I bring?</AccordionHeader>
+          <AccordionBody accordionId="2">
             <u><strong>Food & Drink</strong></u>
             <br></br>
             Food and drink <b>will be provided</b> for the kräftskiva on <u>Friday</u>. (Beer, bubbles, snaps - bring more for after dinner if you want)
@@ -43,14 +63,19 @@ return (
             <li>Towels</li>
             <li>Sheets</li>
             <li>Party clothing</li>
-            <li>Casual & outdoorsy clothing</li>
+            <li>Casual & outdoorsy & warm clothing</li>
+            <br></br>
+            <br></br>
+            <u><strong>Good to have</strong></u>
+            <li>Bug / mosquito spray</li>
             <li>Swimwear</li>
+            <li>Wellies & rain gear</li>
             <li>Sportswear (stuff for football or tennis if you want)</li>
           </AccordionBody>
         </AccordionItem>
         <AccordionItem>
-          <AccordionHeader targetId="2">Where will I sleep?</AccordionHeader>
-          <AccordionBody accordionId="2">
+          <AccordionHeader targetId="3">Where will I sleep?</AccordionHeader>
+          <AccordionBody accordionId="3">
             When you arrive, park by Vrågården (big yellow school building opposite to the church) and "check in" at the reception. 
             <br></br>
             Please wait for our help to sort your lodging, we will show you what house and room you'll stay in or where to pitch your tent.
@@ -64,9 +89,14 @@ return (
           </AccordionBody>
         </AccordionItem>
         <AccordionItem>
-          <AccordionHeader targetId="3">What do we want as a gift?</AccordionHeader>
-          <AccordionBody accordionId="3">
-            Just stop it.
+          <AccordionHeader targetId="4">I want to perform, how does that work?</AccordionHeader>
+          <AccordionBody accordionId="4">
+            On Friday's kräftskiva during and after eating we will have an open mic where you can perform a song.
+            <br></br>
+            Let us know and we'll put you on the list.
+            <br></br>
+            <br></br>
+            On Saturday we have a set lineup.
           </AccordionBody>
         </AccordionItem>
       </Accordion>

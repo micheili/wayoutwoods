@@ -50,6 +50,8 @@ margin-top: 10px;}
     font-size: 2em!important;
 }
 
+
+
 .accordion-header{
     font-family: monospace;
 }
@@ -58,3 +60,18 @@ margin-top: 10px;}
     font-family: monospace;
 }
 
+
+.vrå-link{
+    color: white;
+    font-family: 'Century Gothic';
+    text-decoration: bold;
+}
+
+.vrå-map{
+    size: 120%;
+}
+
+.google-maps{
+    text-size: 200%;
+
+}

@@ -4,7 +4,7 @@ import walkinwoods from "./img/walkinwoods.JPG";
 import logo from "./img/wow_logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import React from 'react';
-import { Row, Col, Container } from "reactstrap";
+import { Row, Col, Container, NavLink, NavItem } from "reactstrap";
 import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
 
 export default function HomePage(){
@@ -39,20 +39,15 @@ return(
                 }}
                 digitBlockStyle={{ width: 30, height: 50, fontSize: 30 }}
               />
+
             </Col>
           </Row>
         </Container>
 
-        <Container fluid>
+        <Container className="m-5" fluid>
           <Row className="d-flex align-items-center justify-content-center">
             <Col className="text-center d-flex align-items-center justify-content-center">
-              <p> Schedule</p>
-            </Col>
-            <Col>
-              <p>Snapsvisor</p>
-            </Col>
-            <Col>
-              <p>Info</p>
+              <NavItem><NavLink href="/map/"><h1 className="vrå-link">📍 VRÅ</h1></NavLink></NavItem>
             </Col>
           </Row>
         </Container>
